@@ -3,7 +3,9 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import Skills from "../components/Skills";
 import profilePic from "../../public/images/profile/developer-pic-2.png";
+
 
 const about = () => {
   return (
@@ -21,23 +23,20 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m Rosmildo Lopes, a FullStack developer with a passion for creating functional,
+                efficient, and user-friendly digital experiences.
+                I am always learning and working on my own projects to enhance my skills.                 
               </p>
               <p className="font-medium my-4">
-                I believe that design is about more than just making things look
-                pretty &ndash; it&apos;s about solving problems and creating intuitive,
-                enjoyable experiences for users.{" "}
+              I strongly believe that coding is not just a job, but a way of life.
+              I enjoy the challenge of solving complex problems 
+              and I am always striving to improve my abilities.{" "}
               </p>
               <p className="font-medium ">
-                Whether I&apos;m working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              Whether I&aposm into a new project or challenge, I bring my dedication
+              to quality and user-centered thinking to every project I work on.
+              I am highly motivated and capable of working as part of a team.
+              I look forward to contributing my skills and expertise to your next project.
               </p>
             </div>
             <div
@@ -74,6 +73,7 @@ const about = () => {
               </div>
             </div>
           </div>
+          <Skills />
         </Layout>
       </main>
     </div>
