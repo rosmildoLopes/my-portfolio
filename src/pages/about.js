@@ -9,7 +9,7 @@ import profilePic from "../../public/images/profile/developer-pic-2.png";
 
 const about = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Rosmildo Lopes | About Page</title>
         <meta name="description" description="about page" />
@@ -76,7 +76,7 @@ const about = () => {
           <Skills />
         </Layout>
       </main>
-    </div>
+    </>
   );
 };
 
