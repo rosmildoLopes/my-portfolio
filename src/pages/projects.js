@@ -6,6 +6,7 @@ import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
 import project1 from "../../public/images/projects/project1.jpg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -94,7 +95,7 @@ const Projects = ({ type, title, img, link, github }) => {
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl">
+          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl sm:text-sm">
             {title}
           </h2>
         </Link>
@@ -122,6 +123,7 @@ const projects = () => {
         <title>Rosmildo Lopes | Projects Page</title>
         <meta name="description" description="about page" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col justify-center items-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -180,7 +182,7 @@ const projects = () => {
                 github="/"
               />
             </div>
-            <div className="col-span-6">
+            <div className="col-span-6 sm:col-span-12">
               <Projects
                 type="Project"
                 title="E-commerce React"

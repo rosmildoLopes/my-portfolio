@@ -5,6 +5,7 @@ import React from "react";
 import Image from "next/image";
 import Skills from "../components/Skills";
 import profilePic from "../../public/images/profile/developer-pic-2.png";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const about = () => {
   return (
@@ -13,6 +14,7 @@ const about = () => {
         <title>Rosmildo Lopes | About Page</title>
         <meta name="description" description="about page" />
       </Head>
+      <TransitionEffect />
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
