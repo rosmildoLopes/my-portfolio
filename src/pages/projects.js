@@ -6,6 +6,8 @@ import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
 import project1 from "../../public/images/projects/project1.jpg";
+import project2 from "../../public/images/projects/project2.png";
+
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -15,8 +17,10 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     border-dark rounded-3xl bg-light dark:bg-dark dark:border-light shadow-2xl p-12 
     relative rounded-br-2xl lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
     >
-      <div className="absolute top-0 -right-3 rounded-[2.5rem] bg-dark dark:bg-light w-[101%] h-[103%]
-      -z-10 rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem] "/>
+      <div
+        className="absolute top-0 -right-3 rounded-[2.5rem] bg-dark dark:bg-light w-[101%] h-[103%]
+      -z-10 rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem] "
+      />
       <Link
         href={link}
         target="_blank"
@@ -43,7 +47,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 fon text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 fon text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
             <GithubIcon />
@@ -81,7 +87,7 @@ const Projects = ({ type, title, img, link, github }) => {
         <Image
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className="w-full max-h-[200x]"
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
         />
@@ -145,11 +151,11 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 type="Project"
-                title="E-commerce React"
-                img={project1}
-                summary="Simply description about the project 0that I made using aan API with ReactJS"
-                link="/"
-                github="/"
+                title="Weather App"
+                img={project2}
+                summary="Made with Next"
+                link="https://next-weather-app-bice.vercel.app/"
+                github="https://github.com/rosmildoLopes/next-weather-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">

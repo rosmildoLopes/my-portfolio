@@ -74,7 +74,7 @@ const NavBar = () => {
         >
           <span
             className={`bg-dark dark:bg-light h-0.5 w-6 rounded-sm transition-all duration-300 ease-out -translate-y-0.5 ${
-              isOpen ? "rotate-45 translate-y-0.5" : "-translate-y-0.5"
+              isOpen ? "rotate-45 translate-y-1" : "-translate-y-1"
             }`}
           ></span>
           <span
@@ -84,7 +84,7 @@ const NavBar = () => {
           ></span>
           <span
             className={`bg-dark dark:bg-light h-0.5 w-6 rounded-sm transition-all duration-300 ease-out translate-y-0.5 ${
-              isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-0.5"
+              isOpen ? "-rotate-45 -translate-y-1" : "translate-y-1"
             }`}
           ></span>
         </button>
