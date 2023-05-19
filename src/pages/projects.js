@@ -7,6 +7,7 @@ import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
 import project1 from "../../public/images/projects/project1.jpg";
 import project2 from "../../public/images/projects/project2.png";
+import project5 from "../../public/images/projects/project5.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -181,11 +182,11 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 type="Project"
-                title="E-commerce React"
-                img={project1}
-                summary="Simply description about the project 0that I made using aan API with ReactJS"
-                link="/"
-                github="/"
+                title="HTML || CSS Calculator"
+                img={project5}
+                summary="Calculator"
+                link="https://rosmildolopes.github.io/Calculator/"
+                github="https://github.com/rosmildoLopes/Calculator"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
