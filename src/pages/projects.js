@@ -7,6 +7,7 @@ import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
 import project1 from "../../public/images/projects/project1.jpg";
 import project2 from "../../public/images/projects/project2.png";
+import project4 from "../../public/images/projects/project4.png";
 import project3 from "../../public/images/projects/project3.png";
 import project5 from "../../public/images/projects/project5.png";
 import project6 from "../../public/images/projects/project6.png";
@@ -149,6 +150,26 @@ const projects = () => {
                 summary="Simply description about the project 0that I made using aan API with ReactJS"
                 link="/"
                 github="/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Projects
+                type="Project"
+                title="React - Shopping Cart"
+                img={project4}
+                summary="Shopping Cart"
+                link="https://rosmildolopes.github.io/react-shoppingcart/"
+                github="https://github.com/rosmildoLopes/react-shoppingcart"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Projects
+                type="Project"
+                title="To do List"
+                img={project6}
+                summary=""
+                link="https://todo-list-rho-flax.vercel.app/"
+                github="https://github.com/rosmildoLopes/todo-list"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
