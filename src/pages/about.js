@@ -60,23 +60,23 @@ const about = () => {
             </div>
             <div
               className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 
-            xl:flex-row xl:items-center md:order-3"
+            xl:flex-row xl:items-center md:order-3 sm:flex-col"
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  40+
+                <span className="inline-block text-5xl font-bold md:text-4xl sm:text-3xl xs:text-3xl">
+                  Good at
                 </span>
                 <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
+                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 text-right
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Poner ejemplos aca
+                  React, Next, and TailwindCSS
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  60+
+                  10+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
@@ -88,13 +88,13 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  30+
+                  . . .
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Poner otros ejemplos aca
+                  Excited to learn
                 </h2>
               </div>
             </div>

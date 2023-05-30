@@ -9,7 +9,6 @@ import HireMe from "../components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "../components/TransitionEffect";
 
-
 export default function Home() {
   return (
     <>
@@ -44,7 +43,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/rosmi_cv.pdf"
                   target={"_blank"}
                   className="flex !items-center bg-dark text-light p-2.5 px-6 font-semibold text-lg rounded-lg
                  hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark

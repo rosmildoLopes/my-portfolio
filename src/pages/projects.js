@@ -5,9 +5,10 @@ import Head from "next/head";
 import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
-import project1 from "../../public/images/projects/project1.jpg";
+import project1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/project2.png";
 import project4 from "../../public/images/projects/project4.png";
+import project8 from "../../public/images/projects/project8.png";
 import project3 from "../../public/images/projects/project3.png";
 import project5 from "../../public/images/projects/project5.png";
 import project6 from "../../public/images/projects/project6.png";
@@ -145,21 +146,22 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="E-commerce React"
+                title="Billing App"
                 img={project1}
-                summary="Simply description about the project 0that I made using aan API with ReactJS"
-                link="/"
-                github="/"
+                summary="Built with React and Tailwind CSS, utilizing the latest features and following 
+                best practices for clean code."
+                link="https://modern-website-tau.vercel.app/"
+                github="https://github.com/rosmildoLopes/modern-website"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 type="Project"
-                title="React - Shopping Cart"
-                img={project4}
-                summary="Shopping Cart"
-                link="https://rosmildolopes.github.io/react-shoppingcart/"
-                github="https://github.com/rosmildoLopes/react-shoppingcart"
+                title="HTML || CSS Calculator"
+                img={project5}
+                summary="Calculator"
+                link="https://rosmildolopes.github.io/Calculator/"
+                github="https://github.com/rosmildoLopes/Calculator"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -170,6 +172,16 @@ const projects = () => {
                 summary=""
                 link="https://todo-list-rho-flax.vercel.app/"
                 github="https://github.com/rosmildoLopes/todo-list"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project"
+                title="GPT-3 BLOG"
+                img={project4}
+                summary="A React application that implements various components and features using React and Vanilla CSS."
+                link="https://gpt3-blog.vercel.app/"
+                github="https://github.com/rosmildoLopes/gpt3-blog"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -192,34 +204,14 @@ const projects = () => {
                 github="https://github.com/rosmildoLopes/generate-password"
               />
             </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type="Featured Project"
-                title="E-commerce React"
-                img={project1}
-                summary="Simply description about the project 0that I made using aan API with ReactJS"
-                link="/"
-                github="/"
-              />
-            </div>
             <div className="col-span-6 sm:col-span-12">
               <Projects
                 type="Project"
-                title="To do List"
-                img={project6}
-                summary=""
-                link="https://todo-list-rho-flax.vercel.app/"
-                github="https://github.com/rosmildoLopes/todo-list"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Projects
-                type="Project"
-                title="HTML || CSS Calculator"
-                img={project5}
-                summary="Calculator"
-                link="https://rosmildolopes.github.io/Calculator/"
-                github="https://github.com/rosmildoLopes/Calculator"
+                title="React - Shopping Cart"
+                img={project8}
+                summary="Shopping Cart"
+                link="https://rosmildolopes.github.io/react-shoppingcart/"
+                github="https://github.com/rosmildoLopes/react-shoppingcart"
               />
             </div>
           </div>

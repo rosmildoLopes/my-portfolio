@@ -37,18 +37,17 @@ const Skills = () => {
         >
           Full Stack
         </motion.div>
-        <Skill name="HTML" x="6vw" y="-12vw" />
+        <Skill name="HTML" x="6vw" y="-16vw" />
         <Skill name="CSS" x="-19vw" y="-5vw" />
         <Skill name="Javascript" x="-5vw" y="-9vw" />
-        <Skill name="AGREGAR" x="-15vw" y="-14vw" />
-        <Skill name="ReactJS" x="-14vw" y="1vw" />
-        <Skill name="NextJS" x="9vw" y="-6vw" />
-        <Skill name="Tailwind" x="14vw" y="0vw" />
+        <Skill name="TailwindCSS" x="-15vw" y="-14vw" />
+        <Skill name="Figma" x="-14vw" y="5vw" />
+        <Skill name="NextJS" x="20vw" y="-6vw" />
         <Skill name="BootStrap" x="27vw" y="0vw" />
         <Skill name="Node" x="1vw" y="9vw" />
-        <Skill name="Express" x="-13vw" y="10vw" />
-        <Skill name="Python" x="13vw" y="10vw" />
-        <Skill name="AGREGAR+" x="-27vw" y="0vw" />
+        <Skill name="Express" x="-13vw" y="14vw" />
+        <Skill name="Python" x="13vw" y="15vw" />
+        <Skill name="ReactJS" x="-27vw" y="0vw" />
       </div>
     </>
   );
