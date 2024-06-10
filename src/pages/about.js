@@ -18,31 +18,31 @@ const about = () => {
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Constantly seeking new challenges."
-            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Constantemente buscando nuevos desafíos."
+            className="mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col justify-start items-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-dark/75 dark:text-light/75 font-bold text-lg uppercase">
-                About Me
+                SOBRE MÍ
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m Rosmildo Lopes, a FullStack developer with a
-                passion for creating functional, efficient, and user-friendly
-                digital experiences. I am always learning and working on my own
-                projects to enhance my skills.
+                Hola, soy Rosmildo Lopes, un desarrollador FullStack con pasión
+                por crear experiencias digitales funcionales, eficientes y
+                fáciles de usar. Siempre estoy aprendiendo y trabajando en mis
+                propios proyectos para mejorar mis habilidades.
               </p>
               <p className="font-medium my-4">
-                I strongly believe that coding is not just a job, but a way of
-                life. I enjoy the challenge of solving complex problems and I am
-                always striving to improve my abilities.{" "}
+                Creo firmemente que programar no es solo un trabajo, sino una
+                forma de vida. Disfruto el desafío de resolver problemas
+                complejos y siempre me esfuerzo por mejorar mis capacidades.
               </p>
               <p className="font-medium ">
-                Whether I&apos;m into a new project or challenge, I bring my
-                dedication to quality and user-centered thinking to every
-                project I work on. I am highly motivated and capable of working
-                as part of a team. I look forward to contributing my skills and
-                expertise to your next project.
+                Soy un buen comunicador y trabajo bien en equipo, fomentando la
+                colaboración. Soy adaptable, organizado y proactivo, siempre
+                buscando aprender y mejorar continuamente. Estas habilidades me
+                permiten enfrentar desafíos y entregar proyectos de alta calidad
+                a tiempo.
               </p>
             </div>
             <div
@@ -63,8 +63,8 @@ const about = () => {
             xl:flex-row xl:items-center md:order-3 sm:flex-col"
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-5xl font-bold md:text-4xl sm:text-3xl xs:text-3xl">
-                  Good at
+                <span className="inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-2xl text-right">
+                  Habilidades destacadas
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 text-right
@@ -80,9 +80,9 @@ const about = () => {
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
-                xl:text-center md:text-lg sm:text-base xs:text-sm "
+                md:text-lg sm:text-base xs:text-sm text-right "
                 >
-                  Projects completed
+                  Proyectos completados
                 </h2>
               </div>
 
@@ -91,10 +91,10 @@ const about = () => {
                   . . .
                 </span>
                 <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
+                  className="text-xl text-right font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Excited to learn
+                  Emocionado por aprender
                 </h2>
               </div>
             </div>

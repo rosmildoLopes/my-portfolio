@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/rosmi-home.svg";
 import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "../components/Icons";
@@ -20,28 +20,27 @@ export default function Home() {
       <main className="flex justify-center items-center text-dark dark:text-light w-full min-h-screen">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="w-full flex lg:flex-col items-center justify-between">
-            <div className="w-1/2 md:w-full">
+            <div className="w-1/2 md:w-full flex justify-center">
               <Image
                 src={profilePic}
-                alt="Rosmi-Lopes"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full sm:mb-3.5 xs-mb-2"
+                alt="Foto de Perfil de Rosmildo Lopes"
+                className="rounded-full h-96 w-96 bg-primaryDark hover:scale-110 transition-all duration-700 dark:bg-light border-4 dark:hover:border-4 dark:border-none border-solid hover:border-dark dark:hover:border-light sm:mb-3.5 xs-mb-2"
                 priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 lg:w-full lg:text-center flex flex-col items-center self-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code."
+                text="Convirtiendo visiones en realidad con Código."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium  md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am passionate about turning
-                ideas into innovative web applications. I am actively seeking a
-                challenging role where I can contribute my expertise in React
-                and NextJS and web development to help create cutting-edge
-                solutions
+                Como desarrollador full-stack , me encanta convertir ideas en
+                aplicaciones web innovadoras. Estoy en busca de un trabajo
+                desafiante donde pueda usar mi experiencia en React y NextJS,
+                siempre intentando crear paginas amigables al usuario con
+                soluciones prácticas.
               </p>
-              <div className="flex items-center self-start lg:self-center">
+              <div className="flex items-center self-start lg:self-center gap-6">
                 <Link
                   href="/rosmi_cv.pdf"
                   target={"_blank"}
@@ -56,7 +55,9 @@ export default function Home() {
                 <Link
                   href="mailto:lopesrosmildo@gmail.com"
                   target={"_blank"}
-                  className="ml-4 underline text-lg font-medium capitalize text-dark dark:text-light md:text-base"
+                  className="ml-4 underline text-lg p-2.5 px-6 md:p-2 md:px-4 rounded-lg font-medium capitalize text-dark 
+                  hover:dark:text-dark hover:bg-light border-2 border-solid border-transparent hover:border-dark
+                  hover:text-dark dark:text-light  md:text-base"
                 >
                   Contact{" "}
                 </Link>
@@ -65,8 +66,8 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className="absolute bottom-8 right-4 inline-block w-24 lg:bottom-4 md:hidden lg:w-17">
-          <Image src={lightBulb} alt="Light Bulb" className="w-full h-auto" />
+        <div className="absolute top-28 right-16 inline-block w-24 lg:bottom-4 md:hidden lg:w-17">
+          <Image src={lightBulb} alt="Light Bulb" className="w-full h-auto -rotate-12" />
         </div>
       </main>
     </>
