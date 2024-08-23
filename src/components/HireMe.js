@@ -1,30 +1,32 @@
-import React from "react";
-import { CircularText } from "./Icons";
-import Link from "next/link";
+import React from 'react';
+import { CircularText } from './Icons';
+import Link from 'next/link';
 
 const HireMe = () => {
-  return (
-    <div
-      className="fixed bottom-4 right-4 flex items-center justify-center overflow-hidden
-    md:right-8 md:left-auto md:top-0 md:bottom-auto md:absolute sm:right-2"
-    >
-      <div className="w-32 md:w-16 h-auto flex items-center justify-center relative">
-        <CircularText
-          className={"fill-dark animate-spin-slow dark:fill-light"}
-        />
-        <Link
-          href="mailto:lopesrosmildo@gmail.com"
-          className="flex items-center justify-center p-3
+	return (
+		<div
+			className='fixed bottom-4 right-4 flex items-center justify-center overflow-hidden
+    md:right-8 md:left-auto md:top-0 md:bottom-auto md:absolute sm:right-2'
+		>
+			<div className='w-32 md:w-16 h-auto flex items-center justify-center relative'>
+				<CircularText
+					className={
+						'fill-dark animate-spin-slow dark:fill-light'
+					}
+				/>
+				<Link
+					href='mailto:lopesrosmildo@gmail.com'
+					className='flex items-center justify-center p-3
         absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark rounded-full
         text-light shadow-md border-2 border-solid border-transparent w-16   h-16 font-semibold
         hover:bg-light hover:text-dark dark:bg-light dark:text-dark dark:border-light 
-        hover:dark:bg-dark hover:dark:text-light md:h-12 md:w-12 md:text-[10px]"
-        >
-          Hire Me
-        </Link>
-      </div>
-    </div>
-  );
+        hover:dark:bg-dark hover:dark:text-light md:h-12 md:w-12 md:text-[10px]'
+				>
+					Hire Me
+				</Link>
+			</div>
+		</div>
+	);
 };
 
 export default HireMe;
