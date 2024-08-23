@@ -4,7 +4,7 @@ import Head from 'next/head';
 import React from 'react';
 import Image from 'next/image';
 import Skills from '../components/Skills';
-import profilePic from '../../public/images/profile/developer-pic-2.png';
+import aboutMePic from '../../public/images/profile/aboutMeImage.svg';
 import TransitionEffect from '@/components/TransitionEffect';
 
 const about = () => {
@@ -18,7 +18,7 @@ const about = () => {
 			<main className='w-full flex flex-col items-center justify-center dark:text-light'>
 				<Layout className='pt-16'>
 					<AnimatedText
-						text='Constantemente buscando nuevos desafíos.'
+						text='Buscando nuevos desafíos.'
 						className='mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'
 					/>
 					<div className='grid grid-cols-8 gap-16 sm:gap-8'>
@@ -28,27 +28,28 @@ const about = () => {
 							</h2>
 							<p className='font-medium '>
 								Hola, soy Rosmildo Lopes, un desarrollador
-								FullStack con pasión por crear experiencias
+								FullStack apasionado por crear experiencias
 								digitales funcionales, eficientes y fáciles
-								de usar. Siempre estoy aprendiendo y
-								trabajando en mis propios proyectos para
-								mejorar mis habilidades.
+								de usar. Mi pasión por la tecnología me
+								impulsa a aprender constantemente y a
+								trabajar en mis propios proyectos para
+								perfeccionar mis habilidades.
 							</p>
 							<p className='font-medium my-4'>
-								Creo firmemente que programar no es solo un
-								trabajo, sino una forma de vida. Disfruto el
-								desafío de resolver problemas complejos y
-								siempre me esfuerzo por mejorar mis
-								capacidades.
+								Programar no es solo un trabajo, sino una
+								forma de vida. He desarrollado aplicaciones
+								que han mejorado la eficiencia operativa de
+								empresas y han recibido comentarios
+								positivos de los usuarios.
 							</p>
 							<p className='font-medium '>
 								Soy un buen comunicador y trabajo bien en
 								equipo, fomentando la colaboración. Soy
 								adaptable, organizado y proactivo, siempre
 								buscando aprender y mejorar continuamente.
-								Estas habilidades me permiten enfrentar
-								desafíos y entregar proyectos de alta
-								calidad a tiempo.
+								Estoy emocionado por la oportunidad de
+								contribuir a su equipo y ayudar a llevar sus
+								proyectos al siguiente nivel.
 							</p>
 						</div>
 						<div
@@ -57,11 +58,11 @@ const about = () => {
 						>
 							<div className='absolute top-0 -right-3 rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl w-[102%] h-[103%] -z-10' />
 							<Image
-								src={profilePic}
+								src={aboutMePic}
 								alt='Profile pic of myself'
 								className='w-full h-auto rounded-2xl'
 								priority
-								sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+								sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 43vw'
 							/>
 						</div>
 						<div
@@ -82,25 +83,25 @@ const about = () => {
 
 							<div className='flex flex-col items-end justify-center xl:items-center'>
 								<span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-									10+
+									2+
 								</span>
 								<h2
 									className='text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 md:text-lg sm:text-base xs:text-sm text-right '
 								>
-									Proyectos completados
+									años de experiencia
 								</h2>
 							</div>
 
 							<div className='flex flex-col items-end justify-center xl:items-center'>
 								<span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-									. . .
+									🕮
 								</span>
 								<h2
 									className='text-xl text-right font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm'
 								>
-									Emocionado por aprender
+									Resolución de Problemas
 								</h2>
 							</div>
 						</div>

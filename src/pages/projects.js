@@ -177,7 +177,7 @@ const projects = () => {
 								title='Multistep Form'
 								img={cuyanasForm}
 								summary='A complete multistep form with zod validation in each step, react-hook-form, images uploading,email sending using resend and react email and integration with appwrite database and storage'
-								link='https://landing-academia.vercel.app/'
+								link='https://cuyanas.vercel.app/'
 								github='#'
 							/>
 						</div>

@@ -25,14 +25,14 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
 	return (
 		<>
-			<h2 className='font-bold text-8xl mt-64 w-full text-center text-dark dark:text-light md:text-6xl md:mt32'>
+			<h2 className='font-bold text-7xl mt-64 w-full text-center text-dark dark:text-light md:text-5xl md:mt32'>
 				Skills
 			</h2>
 			<div
 				className='flex items-center w-full h-screen relative justify-center rounded-full 
       bg-circularLight dark:bg-circularDark lg:bg-circularLightLg lg:dark:bg-circularDarkLg
       md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm
-      lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]'
+      lg:h-[70vh] sm:h-[60vh] xs:h-[50vh]'
 			>
 				<motion.div
 					className='flex items-center justify-center bg-dark dark:bg-light dark:text-dark text-light font-semibold 
@@ -47,7 +47,7 @@ const Skills = () => {
 				<Skill name='TailwindCSS' x='-15vw' y='-14vw' />
 				<Skill name='Figma' x='-14vw' y='5vw' />
 				<Skill name='NextJS' x='20vw' y='-6vw' />
-				<Skill name='BootStrap' x='27vw' y='0vw' />
+				<Skill name='MongoDB' x='27vw' y='0vw' />
 				<Skill name='Node' x='1vw' y='9vw' />
 				<Skill name='Express' x='-13vw' y='14vw' />
 				<Skill name='Python' x='13vw' y='15vw' />
