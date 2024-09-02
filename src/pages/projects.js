@@ -183,6 +183,16 @@ const projects = () => {
 						</div>
 						<div className='col-span-12'>
 							<FeaturedProject
+								type='Municipio Malvinas'
+								title='CRUD Application'
+								img={turnero}
+								summary="Online processing of administrative tasks, streamlining procedures such as licenses, permits, and municipal registrations.A page to create appointment to driver's license integrate with backend. You can create an appointment, remind appointment,etc. Admin panel to advanced settings"
+								link='https://turnero.vercel.app/'
+								github='https://github.com/NumenPublicidad/turnero'
+							/>
+						</div>
+						<div className='col-span-12'>
+							<FeaturedProject
 								type='Carepulse'
 								title='Fullstack'
 								img={turnosSalud}
@@ -219,16 +229,6 @@ const projects = () => {
 								summary='Simply description about the project 0that I made using aan API with ReactJS'
 								link='https://gpt3-blog.vercel.app/'
 								github='https://github.com/rosmildoLopes/gpt3-blog'
-							/>
-						</div>
-						<div className='col-span-12'>
-							<FeaturedProject
-								type='Municipio Malvinas'
-								title='CRUD Application'
-								img={turnero}
-								summary="Online processing of administrative tasks, streamlining procedures such as licenses, permits, and municipal registrations.A page to create appointment to driver's license integrate with backend. You can create an appointment, remind appointment,etc. Admin panel to advanced settings"
-								link='https://rosmildolopes.github.io/Calculator/'
-								github='https://github.com/NumenPublicidad/turnero'
 							/>
 						</div>
 						<div className='col-span-12'>
