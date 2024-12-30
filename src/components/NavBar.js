@@ -114,7 +114,7 @@ const NavBar = () => {
 							className='mx-4'
 						/>
 						<CustomLink
-							href='/projects'
+							href='/projectsEsp'
 							title='Projects'
 							className='ml-4'
 						/>
@@ -138,15 +138,6 @@ const NavBar = () => {
 							className='mx-3 w-6'
 						>
 							<LinkedInIcon />
-						</motion.a>
-						<motion.a
-							href='https://twitter.com/LopesRosmildo'
-							target={'_blank'}
-							whileHover={{ y: -2 }}
-							whileTap={{ scale: 0.9 }}
-							className='ml-3 w-6'
-						>
-							<TwitterIcon />
 						</motion.a>
 
 						<button
@@ -192,7 +183,7 @@ const NavBar = () => {
 								toggle={handleClick}
 							/>
 							<CustomMobileLink
-								href='/projects'
+								href='/projectsEsp'
 								title='Projects'
 								className=''
 								toggle={handleClick}
@@ -217,15 +208,6 @@ const NavBar = () => {
 								className='mx-3 w-6 sm:mx-1'
 							>
 								<LinkedInIcon />
-							</motion.a>
-							<motion.a
-								href='https://twitter.com'
-								target={'_blank'}
-								whileHover={{ y: -2 }}
-								whileTap={{ scale: 0.9 }}
-								className='ml-3 w-6 sm:mx-1'
-							>
-								<TwitterIcon />
 							</motion.a>
 
 							<button
