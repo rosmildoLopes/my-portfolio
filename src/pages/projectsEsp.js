@@ -180,7 +180,7 @@ const projects = () => {
 								img={cuyanasForm}
 								summary='Un formulario multietapa completo con validación en cada paso utilizando zod, react-hook-form, carga de imágenes, envío de correos electrónicos mediante resend y react-email, e integración con la base de datos y almacenamiento de Appwrite.'
 								link='https://cuyanas.vercel.app/'
-								github='#'
+								github='https://github.com/rosmildoLopes/cuyanas'
 							/>
 						</div>
 						<div className='col-span-12'>
